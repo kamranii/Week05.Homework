@@ -51,36 +51,36 @@ namespace Week05.Homework
             //https://www.delftstack.com/howto/csharp/get-all-files-in-a-directory-in-csharp/
             #endregion
             #region Task3
-            ////Example of using "MyList"
-            //MyList<string> stringList = new MyList<string>(10);
-            ////Adding elements
-            //stringList.Add("Region");
-            //stringList.Add("Grand");
-            //stringList.Add("Dumble");
-            //stringList.Add("Crunch");
-            ////Checking existance of an element
-            //Console.WriteLine(stringList.Contains("Crunch"));
-            //Console.WriteLine("*****");
-            ////Get number of elements
-            //Console.WriteLine(stringList.GetCount());
-            //Console.WriteLine("*****");
-            ////Removing an element
-            //stringList.Remove("Crunch");
-            //Console.WriteLine(stringList.Contains("Crunch"));
-            //Console.WriteLine("*****");
-            ////Iterating through the list
-            //foreach (var item in stringList.GetValues())
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Console.WriteLine(stringList.GetCount());
-            ////Deleting all elements from the list
-            //stringList.Clear();
-            //Console.WriteLine("****");
-            //foreach (var item in stringList.GetValues())
-            //{
-            //    Console.WriteLine(item);
-            //}
+            //Example of using "MyList"
+            MyList<string> stringList = new MyList<string>(10);
+            //Adding elements
+            stringList.Add("Region");
+            stringList.Add("Grand");
+            stringList.Add("Dumble");
+            stringList.Add("Crunch");
+            //Checking existance of an element
+            Console.WriteLine(stringList.Contains("Crunch"));
+            Console.WriteLine("*****");
+            //Get number of elements
+            Console.WriteLine(stringList.GetCount());
+            Console.WriteLine("*****");
+            //Removing an element
+            stringList.Remove("Crunch");
+            Console.WriteLine(stringList.Contains("Crunch"));
+            Console.WriteLine("*****");
+            //Iterating through the list
+            foreach (var item in stringList.GetValues())
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine(stringList.GetCount());
+            //Deleting all elements from the list
+            stringList.Clear();
+            Console.WriteLine("****");
+            foreach (var item in stringList.GetValues())
+            {
+                Console.WriteLine(item);
+            }
 
             //Resources
             //https://www.tutorialsteacher.com/csharp/csharp-generics

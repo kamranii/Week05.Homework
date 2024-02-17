@@ -5,8 +5,7 @@ namespace Week05.Homework.Task4
 {
     public class ListStub
     {
-        public static List<string> ProcessToKill(List<string> process)
-        {
+        public static List<string> ProcessToKill(List<string> process)        {
             // Create list of string with initial size to 3.
             List<string> processToKill = new List<string>(3);
 

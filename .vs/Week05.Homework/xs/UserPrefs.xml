@@ -1,33 +1,30 @@
 ﻿<Properties StartupConfiguration="{E21904DB-48A1-4785-9FE5-5D246F785E2B}|Default">
-  <MonoDevelop.Ide.ItemProperties.Week05.Homework PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Week05.Homework/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week05.Homework/Task3/MyList.cs">
     <Files>
-      <File FileName="Week05.Homework/Program.cs" Line="47" Column="72" />
-      <File FileName="Week05.Homework/Task3/MyList.cs" Line="15" Column="32" />
-      <File FileName="Week05.Homework/Task4/ListStub.cs" Line="9" Column="1" />
-      <File FileName="Week05.Homework/Task2/Calculate.cs" Line="4" Column="32" />
+      <File FileName="Week05.Homework/Program.cs" Line="102" Column="13" />
+      <File FileName="Week05.Homework/Task3/MyList.cs" Line="98" Column="29" />
+      <File FileName="Week05.Homework/Task4/ListStub.cs" />
+      <File FileName="Week05.Homework/Task2/Calculate.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Week05.Homework" expanded="True">
-            <Node name="Week05.Homework" expanded="True">
+            <Node name="Week05.Homework">
               <Node name="Task2" expanded="True" />
               <Node name="Task3" expanded="True" />
-              <Node name="Task4" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Week05.Homework PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
